@@ -1,0 +1,36 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "esnext"
+        ],
+        "moduleResolution": "node",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "outDir": "./dist/",
+        "noEmitOnError": true,
+        "alwaysStrict": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "useUnknownInCatchVariables": false,
+        "forceConsistentCasingInFileNames": true,
+        "downlevelIteration": true,
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "./node_modules/@types",
+        ],
+    },
+    "include": [
+        "./src/**.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
